@@ -8,5 +8,5 @@ let mixinObj = {
 
 // 执行循环，将mixinObj里面的组件都混合进去
 for (var key in mixinObj) {
-	Vue.component(keu).mixin(mixinObj[key])
+	Vue.component(key).mixin(mixinObj[key])
 }

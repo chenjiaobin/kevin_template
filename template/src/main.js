@@ -7,12 +7,14 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+import store from './store'
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   {{#router}}
   router,
   {{/router}}

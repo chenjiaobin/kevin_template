@@ -3,7 +3,7 @@ const HelloWorld = () => import('@/components/HelloWorld')
 export default [
 	{
 		path: '/demo2',
-		components: HelloWorld,
+		component: HelloWorld,
 		meta: {
 			title: '这是demo2'
 		}

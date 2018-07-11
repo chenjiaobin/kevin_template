@@ -7,7 +7,7 @@ export default [
 	},
 	{
 		path: '/demo1',
-		components: HelloWorld,
+		component: HelloWorld,
 		meta: {
 			title: '这是demo1'
 		}

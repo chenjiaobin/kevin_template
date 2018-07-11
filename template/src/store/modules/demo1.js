@@ -1,13 +1,6 @@
 /**
  * 注释
  * 添加了namespaced使用的时候如下
- *     methods: {
- *      ...mapActions('overviewEditor', [
- *	        'addOneTrip',
- *	        'editSaveTrip',
- *	        'setImgCover'
- *	      ])
- *      }
  */
 export const demo1 = {
 	namespaced: true,

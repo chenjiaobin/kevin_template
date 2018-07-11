@@ -1,6 +1,9 @@
+import Vue from 'vue'
 import Vuex from 'vuex'
 import { demo1 } from './modules/demo1'
 import { demo2 } from './modules/demo2'
+
+Vue.use(Vuex)
 
 const state = {}
 const gettters = {}
