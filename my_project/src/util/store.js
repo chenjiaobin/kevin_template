@@ -3,7 +3,7 @@
  * @param  {[string]} key   [localstorage的key值]
  * @param  {[string]} value [localstorage存放的值]
  */
-export default saveToStore (key, value) {
+export default saveToStore(key, value) {
 	let local = window.localStorage.__local__
 	if (!local) {
 		local = {}
@@ -20,7 +20,7 @@ export default saveToStore (key, value) {
  * @param  {[string]} def
  * @return {[Object]} [返回localStorage[key]的值]
  */
-export default loadFromStore (key, def) {
+export default loadFromStore(key, def) {
 	let local = window.localStorage.__local__
 	if (!local) {
 		return def

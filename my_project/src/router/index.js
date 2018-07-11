@@ -4,7 +4,7 @@ import routes from 'routes'
 
 Vue.use(Router)
 
-const router = new Router({
+conster router = new Router({
 	base: '/',
 	mode: 'history',
 	linkActiveClass: 'active',
