@@ -7,6 +7,7 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+import '@/mixin'
 
 Vue.config.productionTip = false
 
